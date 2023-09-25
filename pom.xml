@@ -44,56 +44,12 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.spockframework/spock-core -->
 		<dependency>
 			<groupId>org.spockframework</groupId>
 			<artifactId>spock-core</artifactId>
 			<version>2.4-M1-groovy-4.0</version>
 			<scope>test</scope>
 		</dependency>
-
-
-		<!--		<dependency>-->
-<!--			<groupId>io.swagger</groupId>-->
-<!--			<artifactId>swagger-annotations</artifactId>-->
-<!--			<version>1.6.11</version>-->
-<!--		</dependency>-->
-<!--&lt;!&ndash;		<dependency>&ndash;&gt;-->
-<!--&lt;!&ndash;			<groupId>io.swagger.core.v3</groupId>&ndash;&gt;-->
-<!--&lt;!&ndash;			<artifactId>swagger-annotations</artifactId>&ndash;&gt;-->
-<!--&lt;!&ndash;			<version>2.2.15</version>&ndash;&gt;-->
-<!--&lt;!&ndash;		</dependency>&ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>com.squareup.okhttp</groupId>-->
-<!--			<artifactId>okhttp</artifactId>-->
-<!--			<version>2.7.5</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.google.code.gson</groupId>-->
-<!--			<artifactId>gson</artifactId>-->
-<!--			<version>2.10.1</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>io.gsonfire</groupId>-->
-<!--			<artifactId>gson-fire</artifactId>-->
-<!--			<version>1.8.5</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.threeten</groupId>-->
-<!--			<artifactId>threetenbp</artifactId>-->
-<!--			<version>1.6.8</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.squareup.okhttp</groupId>-->
-<!--			<artifactId>logging-interceptor</artifactId>-->
-<!--			<version>2.7.5</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.apache.oltu.oauth2</groupId>-->
-<!--			<artifactId>org.apache.oltu.oauth2.client</artifactId>-->
-<!--			<version>1.0.1</version>-->
-<!--		</dependency>-->
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -110,29 +66,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-<!--			<plugin>-->
-<!--				<groupId>org.openapitools</groupId>-->
-<!--				<artifactId>openapi-generator-maven-plugin</artifactId>-->
-<!--				<version>3.3.4</version>-->
-<!--				<executions>-->
-<!--					<execution>-->
-<!--						<goals>-->
-<!--							<goal>generate</goal>-->
-<!--						</goals>-->
-<!--						<configuration>-->
-<!--							<inputSpec>${project.basedir}/src/main/resources/api.yaml</inputSpec>-->
-<!--							<language>java</language>-->
-<!--							<output></output>-->
-<!--							<configOptions>-->
-<!--								<sourceFolder>src/main/java/com/empik/restapp/rest/github/dto</sourceFolder>-->
-<!--								<language>spring</language>-->
-<!--								<generateSupportingFiles>false</generateSupportingFiles>-->
-<!--								<skipoverwrite>true</skipoverwrite>-->
-<!--							</configOptions>-->
-<!--						</configuration>-->
-<!--					</execution>-->
-<!--				</executions>-->
-<!--			</plugin>-->
 		</plugins>
 	</build>
 
